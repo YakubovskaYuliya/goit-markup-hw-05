@@ -146,7 +146,7 @@ img {
     color: var(--accent-color);
 }
 
-.site-menu .site-nav-link {
+.site-nav-link {
     padding: 24px 0;
     position: relative;
     color: var(--button-second-color);
