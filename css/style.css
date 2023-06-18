@@ -651,8 +651,8 @@ img {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-link-link:hover .thumb-text,
-.portfolio-link-link:focus .thumb-text {
+.portfolio-link-link:hover .portfolio-overlay .thumb-text,
+.portfolio-link-link:focus .portfolio-overlay .thumb-text {
     transform: translateY(0%);
 }
 
