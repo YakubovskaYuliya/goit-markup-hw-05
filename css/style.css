@@ -647,6 +647,8 @@ img {
 }
 
 .portfolio-link-link {
+    text-decoration: none;
+    display: block;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -654,6 +656,18 @@ img {
 .portfolio-link-link:hover .portfolio-overlay .thumb-text,
 .portfolio-link-link:focus .portfolio-overlay .thumb-text {
     transform: translateY(0%);
+}
+
+.portfolio-link-link:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-link-link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-overlay {
@@ -817,22 +831,6 @@ img {
     border-radius: 4px;
 }
 
-.portfolio-link-link {
-    text-decoration: none;
-    display: block;
-}
-
-.portfolio-link-link:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.portfolio-link-link:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
-}
 
 .portfolio-list-list {
     display: flex;
